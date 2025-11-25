@@ -1,0 +1,12 @@
+---
+tags: [finite-element-method, numerical-analysis, partial-differential-equations]
+last modified: 2025, 11, 24 22:11:31
+---
+# Metodo degli elementi finiti
+
+> [!note] Wikipedia
+> Il **metodo degli elementi finiti** (**FEM**, dall'inglese *Finite Element Method*) è una [tecnica numerica](https://it.wikipedia.org/wiki/Analisi_numerica "Analisi numerica") atta a cercare soluzioni approssimate di problemi descritti da [equazioni differenziali alle derivate parziali](https://it.wikipedia.org/wiki/Equazione_differenziale_alle_derivate_parziali "Equazione differenziale alle derivate parziali") riducendo queste ultime a un sistema di [equazioni algebriche](https://it.wikipedia.org/wiki/Equazione_algebrica "Equazione algebrica").
+> 
+>Benché esso competa in alcuni ambiti limitati con altre strategie numeriche ([metodo delle differenze finite](https://it.wikipedia.org/wiki/Metodo_delle_differenze_finite "Metodo delle differenze finite"), [metodo dei volumi finiti](https://it.wikipedia.org/wiki/Metodo_dei_volumi_finiti "Metodo dei volumi finiti"), [metodo degli elementi al contorno](https://it.wikipedia.org/w/index.php?title=Metodo_degli_elementi_al_contorno&action=edit&redlink=1 "Metodo degli elementi al contorno (la pagina non esiste)"), [metodo delle celle](https://it.wikipedia.org/wiki/Metodo_delle_celle "Metodo delle celle"), [metodo spettrale](https://it.wikipedia.org/wiki/Trasformata_di_Fourier_veloce "Trasformata di Fourier veloce"), etc.), il FEM mantiene una posizione dominante nel panorama delle tecniche numeriche di approssimazione e rappresenta il [kernel](https://it.wikipedia.org/wiki/Kernel "Kernel") di gran parte dei codici di analisi automatici disponibili in commercio soprattutto in ambito strutturale e termo-strutturale, essendo di limitato utilizzo nelle applicazioni CFD a causa della instabilità dei solutori a numeri di Reynolds relativamente elevati.
+>
+>l metodo agli elementi finiti si presta molto bene a risolvere equazioni alle derivate parziali in geometrie come il telaio di un'automobile o il motore di un aereo, quando il dominio è variabile (per esempio una reazione a stato solido con condizioni al contorno variabili), quando l'accuratezza richiesta alla soluzione non è omogenea sul dominio (in un [crash test](https://it.wikipedia.org/wiki/Crash_test "Crash test") su un autoveicolo, l'accuratezza richiesta è maggiore in prossimità della zona di impatto) e quando la soluzione cercata manca di regolarità.
